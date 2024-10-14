@@ -13,6 +13,18 @@
         android:theme="@style/Theme.SpeakEasyAPP"
         tools:targetApi="31">
         <activity
+            android:name=".YellowButton"
+            android:exported="false" />
+        <activity
+            android:name=".GreenButton"
+            android:exported="false" />
+        <activity
+            android:name=".BlueButton"
+            android:exported="false" />
+        <activity
+            android:name=".RedButton"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
